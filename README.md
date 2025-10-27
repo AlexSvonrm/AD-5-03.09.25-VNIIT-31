@@ -106,17 +106,17 @@
 2. Cоздать и активировать виртуальное окружение:
 
     ```
-    python -m venv env
+    python -m venv venv
     ```
 
     ```
-    source env/bin/activate
+    source venv/Scripts/activate
     ```
 
 3. Установить зависимости из файла requirements.txt:
 
     ```
-    python3 -m pip install --upgrade pip
+    python -m pip install --upgrade pip
     ```
 
     ```
